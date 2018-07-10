@@ -1,0 +1,15 @@
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 25%;
+}
+
+.search {
+  text-align: center;
+}
+
+.buttons {
+  margin-top: 10px;
+}
