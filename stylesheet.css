@@ -1,15 +1,48 @@
-.logo {
+li {
+  display: inline;
+  font-size: 14px;
+}
+
+.about, .bl {
+  margin-right: 15px;
+}
+.right, .br {
+  float: right ;
+  margin-left: 15px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+.logo, .search {
+  text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  margin-top: 25%;
 }
 
-.search {
-  text-align: center;
+.logo {
+  position: relative;
+  margin-top: 10%;
 }
 
 .buttons {
-  margin-top: 10px;
+  margin-top: 20px;
+}
+
+#footer {
+  display: block;
+  bottom:0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%
+  color: white;
+  text-align: center;
 }
