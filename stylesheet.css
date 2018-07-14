@@ -1,48 +1,85 @@
-li {
-  display: inline;
-  font-size: 14px;
+#header, #footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: arial, sans-serif;
 }
 
-.about, .bl {
-  margin-right: 15px;
+#header {
+  font-size: small;
+  position: absolute;
+  top: 20px;
 }
-.right, .br {
-  float: right ;
-  margin-left: 15px;
+
+.lH {
+  float: left;
+  padding-left: 15px;
+  color: rgb(0,0,0,0.87);
+}
+
+.rH {
+  float:right;
+  padding-right: 15px;
+  color: #666;
+}
+
+.rM {
+  margin-right: 20px;
 }
 
 a {
-  color: #000;
   text-decoration: none;
+  color: black;
 }
 
-a:hover {
-  background-color: blue;
+li {
+  display: inline;
+  color: #666
 }
 
-.logo, .search {
-  text-align: center;
+#logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.logo {
   position: relative;
   margin-top: 10%;
 }
 
-.buttons {
+#search {
+text-align: center;
+}
+
+.searchB {
   margin-top: 20px;
 }
 
+.sB {
+  margin-top: 18px;
+}
+
+
 #footer {
-  display: block;
-  bottom:0;
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
-  width: 100%
-  color: white;
-  text-align: center;
+  border-top: solid 1px #e4e4e4;
+  background: #f2f2f2;
+  width: 100%;
+  height: 40px;
+  display: inline;
+  font-size: small;
+
+}
+
+.lF {
+  float: left;
+  padding-left: 30px;
+  color: #666;
+  margin-top: 13px;
+}
+
+.rF {
+  float: right;
+  margin-top: 13px;
+  padding-right: 30px;
+  color: #666;
 }
