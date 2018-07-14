@@ -54,7 +54,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  margin-top: 10%;
+  margin-top: 8%;
 }
 
 #search {
@@ -63,10 +63,15 @@ text-align: center;
 
 .searchB {
   margin-top: 20px;
+  height: 30px;
+  width: 575px;
 }
 
 .sB {
   margin-top: 18px;
+  margin-left: 7px;
+  position: relative;
+  top: 18px;
 }
 
 
